@@ -1,4 +1,4 @@
-today commands till now
+
 git config --user.name "your name"
 git config -user.email "your email"
 git init
@@ -8,17 +8,10 @@ git commit -m "your message"
 git log
 git reset
 git  rm --cached -r filename
-
-
-
-…or create a new repository on the command line
-echo "# firstrepo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
 git remote add origin https://github.com/lakshay-saini-au8/firstrepo.git
 git push -u origin master
+
+
+
+
                 
-…or push an existing repository from the command line
-git remote add origin https://github.com/lakshay-saini-au8/firstrepo.git
-git push -u origin master
