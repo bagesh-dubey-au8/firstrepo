@@ -1,14 +1,35 @@
-
+# first enter your config details in your git bash
 git config --user.name "your name"
 git config -user.email "your email"
+
+# initalize the git in the project it is first step and only done once
 git init
+
+#to check the status 
 git status
+
+#to add files in stagged area
 git add . or git add yourfilename
+
+#to commit files 
 git commit -m "your message"
+
+#to check logs
 git log
+
+#to reset your stagged area
 git reset
+
+#to remove files from your stagged area
 git  rm --cached -r filename
-git remote add origin https://github.com/lakshay-saini-au8/firstrepo.git
+
+#to create new repo type in chrome
+repo.new
+
+#inorder to connect to your cloud 
+git remote add origin "your repo link" 
+
+#inoder to push thing on github
 git push -u origin master
 
 
