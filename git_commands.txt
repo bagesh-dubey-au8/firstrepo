@@ -32,7 +32,8 @@ git remote add origin "your repo link"
 #inoder to push thing on github
 git push -u origin master
 
+#to clone repo
 
-
+git clone link
 
                 
